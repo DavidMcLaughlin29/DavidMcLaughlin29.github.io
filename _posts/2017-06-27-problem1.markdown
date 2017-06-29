@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem #1"
+title:  "Find the Capital Letters"
 date:   2017-06-27 20:53:22 -0400
 categories: jekyll update
 ---
