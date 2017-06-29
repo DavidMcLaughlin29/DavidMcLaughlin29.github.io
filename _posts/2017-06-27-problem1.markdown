@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Problem #1"
+date:   2017-06-27 20:53:22 -0400
+categories: jekyll update
+---
+Write a function that takes a single string (word) as argument. The function must return an ordered list containing the indexes of all capital letters in the string.
+
+{% highlight python %}
+def capitals(word):
+    index_list = []
+    for index, letter in enumerate(word):
+        if letter.isupper():
+            index_list.append(index)
+    return index_list
+print(capitals('Hello World'))
+{% endhighlight %}
+
