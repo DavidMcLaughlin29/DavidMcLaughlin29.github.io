@@ -20,6 +20,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  davidmclaughlin29
 
+defaults: 
+  - scope:
+      path: "assets/bio_pic.jpg"
+    values:
+      image: true
+
 # Build settings
 markdown: kramdown
 theme: minima
