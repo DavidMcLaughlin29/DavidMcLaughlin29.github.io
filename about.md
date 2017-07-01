@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+![bio_pic](/bio_pic.jpg)
 
 This is my personal website made with Jekyll and hosted with Github Pages. My name is David McLaughlin and I am from the mountains of West Virginia. I am a Licensed Practical Nurse by trade. I am a musician as well and play professionally on the side. The main purpose of this site is to show that I know how to code. For the past 6 years I have worked as a nurse in various settings.
 
