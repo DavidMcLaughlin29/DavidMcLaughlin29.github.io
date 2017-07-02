@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Quiz
+title: Multiple Choice Quiz
 permalink: /quiz/
 ---
+
+Copy and paste the code or pull from github. Run in the command line.
 
 {% highlight python %}
 
