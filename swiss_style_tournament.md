@@ -3,13 +3,8 @@ layout: page
 title: Swiss Style Tournament
 permalink: /swiss_style_tournament/
 ---
-
+This is was also built for Udacity's Intro to Programming Nanodegree. Copy or pull the code, save it, and run in the command line. 
 {% highlight python %}
-#!/usr/bin/env python
-#
-# tournament.py -- implementation of a Swiss-system tournament
-# Credit to Roman Levitas & Udacity Team
-
 import psycopg2
 from operator import itemgetter
 
@@ -146,16 +141,8 @@ def swissPairings():
 
 {% endhighlight %}
 
-#### Test file
+## Test file
 {% highlight python %}
-#!/usr/bin/env python
-#
-# Test cases for tournament.py
-# These tests are not exhaustive, but they should cover the majority of cases.
-#
-# If you do add any of the extra credit options, be sure to add/modify these test cases
-# as appropriate to account for your module's added functionality.
-
 from tournament import *
 
 def testCount():
@@ -305,7 +292,26 @@ if __name__ == '__main__':
     print ("Success!  All tests pass!")
 
 {% endhighlight %}
+## Database Schema
+{% highlight SQL %}
+DROP DATABASE IF EXISTS tournament;
+CREATE DATABASE tournament;
+\c tournament;
 
+
+CREATE TABLE players (
+    id serial PRIMARY KEY NOT NULL,
+    Name text
+    
+);
+
+CREATE TABLE matches (
+    match_id serial PRIMARY KEY NOT NULL,
+    winner int REFERENCES players(id),
+    loser int REFERENCES players(id)
+    
+);
+{% endhighlight %}
 
 
 
