@@ -4,7 +4,7 @@ title: "Check Permutation"
 date: 2017-07-03
 ---
 {% highlight python %}
-def check_permutation(string1,string2)
+def check_permutation(string1,string2):
     '''Determine if two strings are permutations of each other.'''
     if len(string1) != len(string2):
         return False
