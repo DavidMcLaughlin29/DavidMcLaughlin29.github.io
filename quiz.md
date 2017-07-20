@@ -3,7 +3,7 @@ layout: page
 title: Multiple Choice Quiz
 permalink: /quiz/
 ---
-This was built for Udacity's Intro to Programming Nanodegree. Copy and paste the code or pull from github. Run in the command line.
+This was built for Udacity's Intro to Programming Nanodegree. Copy and paste or clone from the github repository. Run in the command line.
 
 {% highlight python %}
 
@@ -14,7 +14,7 @@ easy_questions = [
     },
     
     {	'question': 'The president of the US is ',
-    	'answer': 'Barack Obama'
+    	'answer': 'Donald Trump'
 
     },
     { 	'question': 'We are on planet ',
