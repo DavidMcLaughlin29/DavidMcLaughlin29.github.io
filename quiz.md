@@ -61,7 +61,7 @@ hard_questions = [
 
     },
     {	
-    	'question': 'The command allowing administrative privledges is ',
+    	'question': 'The linux command allowing administrative privledges is ',
     	'answer': 'sudo'
     }
 
@@ -81,7 +81,6 @@ def grab_questions(difficulty):
 def generate_quiz(questions):
     '''Loops through list of questions until complete'''
     for question in questions:
-        # This loops through the list of questions. Each individual question is a dict with a 'question' and 'answer' key
         user_answer = raw_input(question['question'] + '\n')
 
         while user_answer.lower() != question['answer'].lower():
