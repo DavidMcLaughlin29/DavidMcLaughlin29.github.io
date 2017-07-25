@@ -3,7 +3,7 @@ layout: page
 title: Swiss Style Tournament
 permalink: /swiss_style_tournament/
 ---
-This is was also built for Udacity's Intro to Programming Nanodegree. Copy and paste or clone from the github repo, run in the command line. 
+Copy and paste or clone from the github repo, run in the command line. 
 {% highlight python %}
 import psycopg2
 from operator import itemgetter

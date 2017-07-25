@@ -3,7 +3,7 @@ layout: page
 title: Multiple Choice Quiz
 permalink: /quiz/
 ---
-This was built for Udacity's Intro to Programming Nanodegree. Copy and paste or clone from the github repository. Run in the command line.
+Copy and paste or clone from the github repository. Run in the command line.
 
 {% highlight python %}
 
