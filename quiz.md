@@ -3,8 +3,7 @@ layout: page
 title: Multiple Choice Quiz
 permalink: /quiz/
 ---
-Copy and paste or clone from the github repository. Run in the command line.
-
+This is a quiz for Udacity's Intro to Programming Nanodegree built with Python that utilizes a list of dictionaries. It is designed to be run in the terminal. 
 {% highlight python %}
 
 easy_questions = [
