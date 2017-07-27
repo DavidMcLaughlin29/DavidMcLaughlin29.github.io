@@ -3,7 +3,7 @@ layout: page
 title: Swiss Style Tournament
 permalink: /swiss_style_tournament/
 ---
-Copy and paste or clone from the github repo, run in the command line. 
+This was built for Udacity's Intro to Programming Nanodegree. [Here](https://en.wikipedia.org/wiki/Swiss-system_tournament) is an article about the rules of the tournament and how it works. The program generates the results, wins, losses, matches, etc. of the tournament. Copy and paste or clone from the github repo, run in the command line. 
 {% highlight python %}
 import psycopg2
 from operator import itemgetter
