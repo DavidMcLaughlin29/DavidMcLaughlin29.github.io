@@ -35,7 +35,7 @@ def grab_all_links(page):
             break
     return links
  
-links = grab_all_links(grab_page("https://xkcd.com/"))
+links = grab_all_links(grab_page("https://www.reddit.com/"))
  
 print(links)
 {% endhighlight %}
