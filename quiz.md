@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multiple Choice Quiz
+title: Quiz
 permalink: /quiz/
 ---
 This is a quiz for Udacity's Intro to Programming Nanodegree built with Python that utilizes a list of dictionaries. It is designed to be run in the terminal. 
