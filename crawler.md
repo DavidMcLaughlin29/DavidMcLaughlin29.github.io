@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Webcrawler
-permalink: /webcrawler/
+title: Crawler
+permalink: /Crawler/
 ---
 Gets all the links on a page and returns them in a list. I did this for practice. It could be modified in all sorts of ways to grab whatever you wanted from a web-page.
 {% highlight python %}
