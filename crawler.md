@@ -3,14 +3,14 @@ layout: page
 title: Crawler
 permalink: /Crawler/
 ---
-Gets all the links on a page and returns them in a list. I did this for practice. It could be modified in all sorts of ways to grab whatever you wanted from a web-page.
+Utilizes the requests library to grab all the links on a page and return them in a list. I did this for practice. It could be modified in all sorts of ways to grab whatever you wanted from a web-page.
 {% highlight python %}
-from urllib.request import urlopen
- 
+import requests
+
 def grab_page(url):
     '''Function that grabs a web-page and its content.'''
-    page = urlopen(url)
-    content = page.read().decode('utf-8')
+    page = requests.get(url)
+    content = page.text
     return content
  
 def grab_next_link(page):
