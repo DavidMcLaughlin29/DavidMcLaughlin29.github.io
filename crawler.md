@@ -15,7 +15,7 @@ def grab_page(url):
  
 def grab_next_link(page):
     '''Function to find next link'''
-    start_link = page.find('<a href=')
+    start_link = page.find('href=')
     if start_link == -1:
         return None, 0        
     start_quote = page.find('"', start_link)
