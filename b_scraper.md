@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Crawler
-permalink: /Crawler/
+title: Scraper
+permalink: /Scraper/
 ---
 Utilizes the requests library to grab all the links on a page and return them in a list. I did this for practice. It could be modified in all sorts of ways to grab whatever you wanted from a web-page.
 {% highlight python %}
