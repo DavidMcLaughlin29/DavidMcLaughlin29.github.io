@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Text Message Abbrevation
-date: 2017-09-6
+date: 2017-09-26
 ---
 {% highlight java %}
 import java.util.Map;
