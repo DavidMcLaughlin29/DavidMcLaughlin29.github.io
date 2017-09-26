@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Text Message Abbrevation Expander
+title: Text Message Abbreviation Expander
 date: 2017-09-26
 ---
 Takes a user input string, checks if it has common abbreviations, and returns a new string with the abbreviations expanded.
