@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Text Message Abbrevation
+title: Text Message Abbrevation Expander
 date: 2017-09-26
 ---
+Takes a user input string, checks if it has common abbreviations, and returns a new string with the abbreviations expanded.
 {% highlight java %}
 import java.util.Map;
 import java.util.HashMap;
